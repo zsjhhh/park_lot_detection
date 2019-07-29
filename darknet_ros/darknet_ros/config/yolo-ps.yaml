@@ -1,0 +1,11 @@
+yolo_model:
+
+  config_file:
+    name: yolo-ps.cfg
+  weight_file:
+    name: yolo-ps.weights
+  threshold:
+    value: 0.3
+  detection_classes:
+    names:
+      - p
